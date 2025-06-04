@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#00BFFF"
+        android:padding="24dp">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="293dp"
+                android:layout_height="48dp"
+                android:layout_gravity="center"
+                android:layout_marginBottom="20dp"
+                android:text="Your Interests"
+                android:textColor="#FFFFFF"
+                android:textSize="22sp"
+                android:textStyle="bold" />
+
+            <CheckBox android:text="Web Development"
+                android:id="@+id/webDev"
+                android:layout_height="20dp"
+                android:layout_width="200dp"/>
+            <CheckBox android:text="Data Structures"
+                android:id="@+id/dataStructures"
+                android:layout_height="20dp"
+                android:layout_width="150dp"/>
+            <CheckBox android:text="Algorithms"
+                android:id="@+id/algorithm"
+                android:layout_height="20dp"
+                android:layout_width="150dp"/>
+            <CheckBox android:text="AI"
+                android:id="@+id/cb_ai"
+                android:layout_height="20dp"
+                android:layout_width="150dp"/>
+            <CheckBox android:text="Testing"
+                android:id="@+id/cb_testing"
+                android:layout_height="20dp"
+                android:layout_width="150dp"/>
+
+            <Button
+                android:id="@+id/nextButton"
+                android:text="Next"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="24dp"
+                android:backgroundTint="#00FF7F" />
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

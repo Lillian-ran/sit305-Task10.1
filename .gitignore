@@ -1,0 +1,25 @@
+# Android Studio
+*.iml
+.gradle
+/local.properties
+/.idea/caches
+/.idea/libraries
+/.idea/modules.xml
+/.idea/workspace.xml
+/.idea/navEditor.xml
+/.idea/assetWizardSettings.xml
+.DS_Store
+
+# Build output
+/build
+/captures
+.externalNativeBuild
+.cxx
+
+# Python
+venv/
+*.pyc
+__pycache__/
+
+# BFG JAR file
+bfg-*.jar

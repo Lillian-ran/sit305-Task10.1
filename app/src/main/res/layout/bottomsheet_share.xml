@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/layoutShare"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="24dp"
+    android:orientation="vertical"
+    android:background="@android:color/white">
+
+    <TextView
+        android:id="@+id/previewText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Loading preview..."
+        android:textSize="16sp"
+        android:paddingBottom="16dp" />
+
+    <EditText
+        android:id="@+id/shareLinkEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:focusable="false"
+        android:textIsSelectable="true"
+        android:inputType="textUri"
+        android:padding="10dp"
+        android:background="@android:drawable/edit_text" />
+
+    <Button
+        android:id="@+id/copyLinkButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Copy Link"
+        android:layout_marginTop="12dp" />
+
+</LinearLayout>
